@@ -20,7 +20,7 @@ header {
 .three-main {
   font-size: 16px;
   margin-top: 24px;
-  line-height: 1.9;
+  line-height: 1.95;
 
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;

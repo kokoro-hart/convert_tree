@@ -40,7 +40,6 @@ h1 {
   font-size: 16px;
 }
 .container {
-  max-width: 1280px;
   width: 90%;
   margin-right: auto;
   margin-left: auto;

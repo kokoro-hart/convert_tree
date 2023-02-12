@@ -141,8 +141,9 @@ export const ConvertToThree = defineStore("convertToThree", {
       })
     },
     onInput(event: Event, item: Item) {
-      const target = event.target as HTMLElement
-      item.value = target?.innerText
+      let target = event.target as HTMLElement
+      let content = target?.textContent as string
+      item.value = content
     },
     onTab(item: Item, index: number) {
       if (index === 0) return
